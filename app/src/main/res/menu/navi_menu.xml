@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="홈"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/locationFragment"
+        android:title="위치"
+        android:icon="@drawable/ic_location"/>
+
+    <item
+        android:id="@+id/myListFragment"
+        android:title="찜목록"
+        android:icon="@drawable/ic_my_list"/>
+
+    <item
+        android:id="@+id/settingFragment"
+        android:title="설정"
+        android:icon="@drawable/ic_setting"/>
+</menu>
