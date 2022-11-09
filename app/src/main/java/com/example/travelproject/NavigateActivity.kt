@@ -1,24 +1,24 @@
+package com.example.travelproject
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import com.example.travelproject.*
-import com.example.travelproject.databinding.ActivityNaviBinding
+import com.example.travelproject.databinding.ActivityNavigateBinding
 
 private const val TAG_HOME = "home_fragment"
 private const val TAG_LOCATION = "location_fragment"
 private const val TAG_MY_LIST = "my_list_fragment"
 private const val TAG_SETTING="setting_fragment"
 
-class NaviActivity : AppCompatActivity() {
-
-    private lateinit var binding : ActivityNaviBinding
+class NavigateActivity : AppCompatActivity() {
+    private lateinit var binding : ActivityNavigateBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityNaviBinding.inflate(layoutInflater)
-        setContentView(binding.root)
 
+        binding = ActivityNavigateBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         setFragment(TAG_HOME, HomeFragment())
 
