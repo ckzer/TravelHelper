@@ -2,4 +2,11 @@
     <string name="app_name">TravelProject</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seoul">서울</string>
+    <string name="gyeongin">경인</string>
+    <string name="busan">부산</string>
+    <string name="daegu">대구</string>
+    <string name="gwangju">광주</string>
+    <string name="jeju">제주</string>
+
 </resources>
