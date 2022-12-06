@@ -8,42 +8,5 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/btn_seoul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/seoul" />
-
-        <Button
-            android:id="@+id/btn_gyeongin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/gyeongin" />
-
-        <Button
-            android:id="@+id/btn_busan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/busan" />
-
-        <Button
-            android:id="@+id/btn_daegu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/daegu" />
-
-        <Button
-            android:id="@+id/btn_gwangju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/gwangju" />
-
-        <Button
-            android:id="@+id/btn_jaju"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/jeju" />
-    </LinearLayout>
+        android:orientation="vertical"/>
 </FrameLayout>
