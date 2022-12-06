@@ -38,7 +38,7 @@ class NavigateActivity : AppCompatActivity() {
         val fragTransaction = manager.beginTransaction()
 
         if (manager.findFragmentByTag(tag) == null){
-            fragTransaction.add(R.id.mainFrameLayout, fragment, tag)
+            fragTransaction.add(R.id.mainFrameLayout, fragment, tag)    //fragmentTransaction 클래스 함수 이용하여 프래그먼트 동적 제어
         }
 
         val home = manager.findFragmentByTag(TAG_HOME)
@@ -83,7 +83,6 @@ class NavigateActivity : AppCompatActivity() {
                 fragTransaction.show(setting)
             }
         }
-
         fragTransaction.commitAllowingStateLoss()
     }
 }
